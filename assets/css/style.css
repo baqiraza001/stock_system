@@ -1,0 +1,155 @@
+.container {
+  padding-right:15px;
+  padding-left:15px;
+  /*margin-right:auto;*/
+  /*margin-left:auto;*/
+}
+
+#header-container {
+  margin-right:0;
+  margin-left:0;
+  background-color:#32e032;
+}
+
+.nav-items {
+  background-color:#2f9a2f;
+  margin:0px 3px;
+}
+.navbar-default .navbar-nav>li>a,.navbar-default .navbar-nav>li>a:active{
+	background-color: #32e032;
+	color: white;
+}
+.navbar-default .navbar-nav>li>a:hover,.navbar-default .navbar-nav>li>a:focus{
+	color: white;
+}
+.navbar-default .navbar-toggle{
+  color: white;
+ }
+ .navbar-default .navbar-toggle {
+  border-color: white;
+}
+.navbar-default .navbar-toggle:hover {
+  background-color: white;
+  /*border-color: white;*/
+}
+.navbar-default .navbar-toggle:focus {
+    background-color: #32e032;
+}
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: white;
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover {
+  color: white;
+  background-color: #2f9a2f;
+}
+.navbar-default .navbar-nav>li>a:hover {
+  background-color: #2f9a2f;
+} 
+/*login panel*/
+.login-panel {
+  margin-top: 115px;
+}
+/*profile picture*/
+.profile-img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+#profile-link {
+  padding: 5px;
+}
+
+/* locatin description textarea add_location page*/
+
+/* stock details page*/
+.item-details {
+  font-family: serif;
+}
+.item-details h4 b {
+  font-family: sans-serif;
+}
+.item-details h3 {
+  display: inline;
+  font-size: 21px;
+  word-wrap: break-word;
+}
+.item-details strong{
+  display: inline-block;
+  word-wrap: break-word;
+}  
+.item-notes {
+  word-wrap: break-word;
+  font-family: serif;
+  z-index: 3;
+}
+.item-notes h3 {
+  font-size: 15px;
+    background-color: #fdf7f7;
+    display: inline-block;    
+    padding: 1px 6px;
+}
+.item-notes hr {
+  margin: 23px 21% 0 27%;
+}  
+.item-notes .h-history {
+    position: relative;
+    top: 29px;
+    right: 15px;
+    z-index: -1;
+}
+.add-remove-stock {
+  margin-top: 5px;
+  display: inline-block;
+}
+/* items history*/
+.item-history {
+  font-family: serif;
+}
+/* items history*/
+/* //stock details page*/
+
+/* header search bar css*/
+.search-input {
+  margin-top: 8px;
+  padding-left: 39px;
+}
+
+#search-result ul {
+  list-style-type: none;
+}
+#search-result ul li {
+  background-color: #ffffffed;
+  width: 99.7%;
+  border: 1px solid #eee;
+  border-top: none;
+}
+#search-result ul li:hover {
+  background-color: #eee;
+}
+#search-result ul li a {
+  display: block;
+  padding: 10px;
+  padding-left: 40px;
+}
+#search-result ul li a:hover, #search-result ul li a:focus {
+  text-decoration: none;
+  color: #337ab7;
+  display: block;
+  
+}
+.search-input-container {
+  position: relative;
+  z-index: 1
+}
+#search-result {
+    position: absolute;
+    width: 94%;
+    z-index: 6;
+    top: 41px;
+      display: none;
+}
+/* //header search bar css*/
+
+#forgot-password {
+  text-decoration: underline;
+}
